@@ -188,8 +188,8 @@ body {
 }
 
 .social-icons a {
-  display: inline-block;
-  margin-right: 15px;
+  color: #252525;
+  text-decoration: none;
 }
 
 .footer-bottom {
@@ -199,8 +199,9 @@ body {
   color: #6b7280;
 }
 .social-icons a {
-  color: #252525;
-  text-decoration: none;
+  display: inline-block;
+  margin-right: 15px;
+  font-size: 14px;
 }
 @media (max-width: 768px) {
   .footer-container {
