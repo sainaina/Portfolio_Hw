@@ -73,7 +73,7 @@ body {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
   transition: transform 0.3s ease;
   background: linear-gradient(white, white) padding-box,
-    linear-gradient(45deg, #baf1ed, #dbb0dd, #ece3c1, #d0f3db) border-box;
+    linear-gradient(45deg, #b8f5f1, #dbb0dd, #ece8c1, #eec6e3) border-box;
 
   border: 9px solid transparent;
   background-clip: padding-box, border-box;
@@ -107,35 +107,34 @@ body {
   border-radius: 10px;
 }
 
-/* Specific Progress Bar Colors */
 .progress.html {
   width: 90%;
-  background-color: #f97316;
+  background-color: #fa9044;
 }
 
 .progress.css {
   width: 85%;
-  background-color: #3b82f6;
+  background-color: #6ba3fd;
 }
 
 .progress.js {
-  width: 80%;
-  background-color: #facc15;
+  width: 40%;
+  background-color: #fad84f;
 }
 
 .progress.react {
-  width: 75%;
-  background-color: #60a5fa;
+  width: 60%;
+  background-color: #7cb4f8;
 }
 
 .progress.git {
   width: 70%;
-  background-color: #ef4444;
+  background-color: #f16262;
 }
 
 .progress.nodejs {
-  width: 65%;
-  background-color: #22c55e;
+  width: 50%;
+  background-color: #42c471;
 }
 
 .footer {
