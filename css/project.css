@@ -204,18 +204,22 @@ body {
   font-size: 14px;
 }
 @media (max-width: 768px) {
+  .footer {
+    margin: 20px;
+    padding: 20px;
+  }
+
   .footer-container {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+    gap: 20px;
   }
 
   .footer-section {
-    max-width: 90%;
+    width: 100%;
+    max-width: 100%;
   }
 
-  .social-icons a {
-    display: block;
-    margin-bottom: 10px;
+  .footer-section-social {
+    width: 100%;
+    text-align: center;
   }
 }
