@@ -1,0 +1,220 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f9fcf1;
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  background-color: #d6f0f0;
+  border-radius: 20px;
+  margin: 25px 40px 20px 40px;
+  padding: 12px 50px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: #1c1c1c;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+.nav-list a:hover {
+  color: #727272;
+}
+.projects-section {
+  padding: 60px 20px;
+  text-align: center;
+  background-image: url("https://i.pinimg.com/736x/9f/38/e6/9f38e6ec77817f5895531b282ccff56e.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  margin: 40px;
+  padding: 50px 50px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.projects-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.subtext {
+  color: #252525;
+  margin-bottom: 50px;
+  font-size: 1rem;
+}
+
+.project-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .project-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .project-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.project-card {
+  background-color: #f9fcf1;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  overflow: hidden;
+  backdrop-filter: blur(15px);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+}
+
+.project-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+}
+
+.project-image {
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  background-image: url("../image/trovka.png");
+  margin: 15px;
+  border-radius: 7px;
+}
+
+.project-content {
+  padding: 20px;
+  text-align: left;
+}
+
+.project-content h3 {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  color: #252525;
+}
+
+.project-content p {
+  color: #252525;
+  font-size: 0.95rem;
+  margin-bottom: 15px;
+}
+
+.project-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #d3f4e3;
+  color: #252525;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: bold;
+  margin: 15px 0px 15px 0px;
+}
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.footer {
+  background-color: #d3f4e3;
+  border-radius: 20px;
+  margin: 40px;
+  padding: 30px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1100px;
+  margin: auto;
+  gap: 30px;
+}
+
+.footer-section {
+  flex: 1 1 250px;
+}
+
+.footer-section h3 {
+  font-size: 18px;
+  margin-bottom: 12px;
+  color: #252525;
+}
+
+.footer-section p,
+.footer-section ul,
+.footer-section a {
+  font-size: 14px;
+  color: #333;
+  text-decoration: none;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 8px;
+}
+
+.footer-section a:hover {
+  color: #8d8d8d;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 13px;
+  color: #6b7280;
+}
+.social-icons a {
+  color: #252525;
+  text-decoration: none;
+}
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-section {
+    max-width: 90%;
+  }
+
+  .social-icons a {
+    display: block;
+    margin-bottom: 10px;
+  }
+}
